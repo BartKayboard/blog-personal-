@@ -1,0 +1,223 @@
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: rgb(20, 20, 20);
+  }
+
+.micajapadre{
+    height: 200px;
+    background-color: rgb(12, 12, 12);
+    position: relative
+    
+  }
+  
+  .micajaimagen{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  .miavatar{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  h1 {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+/* espacio entre header y listas*/
+.margendespaciado {
+    height: 130px;
+}
+/* espacio entre header y listas*/
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton1 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  .boton2 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .boton3 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .boton4 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .boton5 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .boton6 {
+    background-color: rgba(255, 255, 255, 0);
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    color: lightseagreen;
+    transition: .4s ease-out;
+  }
+
+  /* espacio entre listas y cartas*/
+
+.midconten {
+    color: azure;
+  }
+
+.contenedorcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .card4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  
+  .card5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+  .card6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 90%;
+    background-color: grey;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+
+.footcontainer {
+    height: 100px;
+}
+
+h2 {
+    text-shadow: 2px 2px 0px black;
+    color: lightseagreen;
+}
